@@ -19,7 +19,7 @@ const Hero = () => {
                             <p className='font-semibold text-[25px]'>Welcome to my Portfolio</p>
                             <p className='text-[45px] font-extrabold leading-snug'>Hi I'm <br/>
                                <span className="text-[#0077FF] ">Kawekwune Emmanuel</span> <br/>
-                            Frontend Web Developer</p>
+                            MERN Stack Developer</p>
                             <p className='text-[23px]'>Collaborating with highly skilled individual, <br/> I deliver top quality services</p>
                         </div>
                         <div className='flex flex-col lg:pl-12 lg:flex-row gap-6 lg:gap-24 w-screen lg:w-full items-center'>

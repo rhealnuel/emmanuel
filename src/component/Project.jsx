@@ -53,7 +53,7 @@ const Project = () => {
                                 <a href={items.siteLink}><p className="font-bold text-[#0077FF] pt-5">{items.name}</p></a>
                                 <a href={items.gitLink}><p className="font-bold text-[#0077FF] pt-5">Code</p></a>
                             </div>
-                            <p className="font-semibold text-[#0077ff]"><span className="font-bold text-black">Tools  Used: </span>{items.tools}</p>
+                            <p className="font-semibold text-[#0077ff] w-[90%]"><span className="font-bold text-black">Tools  Used: </span>{items.tools}</p>
                     </div>
                     
                      ))}

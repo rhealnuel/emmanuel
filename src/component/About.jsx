@@ -43,7 +43,7 @@ const About = () => {
                 id: 3,
                 min: 0,
                 max: 150,
-                title: "Web Design"
+                title: "Backend development"
             },
         ];
 
@@ -57,7 +57,7 @@ const About = () => {
                     <div className='flex flex-col gap-20' data-aos="fade-left" data-aos-duration="3000" >
                         <div className=' text-center lg:text-start'>
                             <p className='font-bold text-[#0077FF]'>ABOUT ME</p>
-                            <p className="text-[35px] font-extrabold leading-snug">1 Year Experience <br/>
+                            <p className="text-[35px] font-extrabold leading-snug">3+ Years Experience <br/>
                             <span className='text-[#0077FF]'>on Web Development</span></p>
                             <p className="pt-5">Hello there! I'm <span className="font-bold">Kawekwune Emmanuel</span>. I specialize in web design and development,<br/> 
                                 and I'm deeply passionate and committed to my craft</p>

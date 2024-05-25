@@ -9,7 +9,7 @@ function Delete() {
 
     const handleDelete = () => {
         axios
-        .delete(`http://localhost:4000/api/details/${_id}`)
+        .delete(`https://nodepro-0oko.onrender.com/api/details/${_id}`)
         .then(() => {
             navigate('/dashboard')
         }).catch((error) => {
