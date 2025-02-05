@@ -11,7 +11,7 @@ const Project = () => {
 
 
     useEffect(() => {
-        const apiUrl = 'https://nodepro-0oko.onrender.com/api/details'; // Replace this URL with your API endpoint
+        const apiUrl = 'https://nodepro-b6fwvrhoz-rhealnuels-projects.vercel.app/api/details'; // Replace this URL with your API endpoint
       setLoading(true)
         fetch(apiUrl)
           .then((response) => {
@@ -48,7 +48,7 @@ const Project = () => {
                      
                       
                         <div className="h-fit w-fit  p-4 rounded-2xl shadow-2xl mb-10" key={items._id}  data-aos="fade-up " data-aos-duration="3000">
-                            <a href={items.siteLink}><img src={`https://nodepro-0oko.onrender.com/${items.image}`} alt="" className=' w-[320px] h-[250px] rounded-2xl  duration-500 delay-75 animate-[ease-in-out] hover:w-[340px] hover:h-[260px] ' /></a>
+                            <a href={items.siteLink}><img src={items.image} alt="" className=' w-[320px] h-[250px] rounded-2xl  duration-500 delay-75 animate-[ease-in-out] hover:w-[340px] hover:h-[260px] ' /></a>
                             <div className="flex justify-between">
                                 <a href={items.siteLink}><p className="font-bold text-[#0077FF] pt-5">{items.name}</p></a>
                                 <a href={items.gitLink}><p className="font-bold text-[#0077FF] pt-5">Code</p></a>

@@ -16,7 +16,7 @@ function Dashboard() {
 
 
   useEffect(() => {
-    const apiUrl = 'https://nodepro-0oko.onrender.com/api/details'; // Replace this URL with your API endpoint
+    const apiUrl = 'https://nodepro-b6fwvrhoz-rhealnuels-projects.vercel.app/api/details'; // Replace this URL with your API endpoint
 
     fetch(apiUrl)
       .then((response) => {
@@ -50,7 +50,7 @@ function Dashboard() {
 
 
     try {
-      const response = await fetch('https://nodepro-0oko.onrender.com/api/details', {
+      const response = await fetch('https://nodepro-b6fwvrhoz-rhealnuels-projects.vercel.app/api/details', {
         method: 'POST',
         body: formData,
       });
